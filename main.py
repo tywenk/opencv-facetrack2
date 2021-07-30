@@ -16,6 +16,8 @@ faceDetection = mpFaceDetect.FaceDetection()
 while True:
     ret, frame = cap.read()
 
+    frame = cv2.flip(frame, -1)
+
     imgRGB = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     results = faceDetection.process(imgRGB)
     # print(results)
