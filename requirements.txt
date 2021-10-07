@@ -8,7 +8,7 @@ mediapipe==0.8.6
 numpy==1.21.0
 opencv-contrib-python==4.5.2.54
 opencv-python==4.5.2.54
-Pillow==8.2.0
+pillow>=8.3.2
 protobuf==3.17.3
 pycodestyle==2.7.0
 pyparsing==2.4.7
